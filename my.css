@@ -1,0 +1,117 @@
+body
+{
+    margin: 0;
+    position: relative;
+}
+
+*
+{
+    transition: all linear 0.5s;
+}
+
+.products
+{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.products .product
+{
+    padding: 25px;
+    background-color: #053B50;
+    border-radius: 10px;
+    width: 300px;
+    height: fit-content;
+}
+
+.products .product div
+{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.products .product p
+{
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.products .product span
+{
+    text-align: center;
+    color: red;
+    margin: 0 auto;
+}
+
+.products .product img
+{
+    max-width: 95%;
+    padding-top: 5px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.products .product button
+{
+    background-color: #176B87;
+    border: 0;
+    outline: 0;
+    color: #EEEEEE;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+#bag
+{
+    padding: 5px;
+}
+
+#bag .inbag
+{
+    background-color: #176B87;
+}
+
+
+#bag .inbag img
+{
+    padding-top: 5px;
+    max-width: 100%;
+}
+
+#bag .inbag .name
+{
+    text-align: center;
+    padding: 5px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+
+#bag .inbag .dollar
+{
+    color: red;
+    text-align: center;
+}
+
+#bag .inbag button
+{
+    background-color: #EEEEEE;
+    border: 0;
+    outline: 0;
+    color: #176B87;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.stats
+{
+    padding: 10px;
+    background-color: #176B87;
+}
+
+.stats p
+{
+    font-size: 25px;
+    font-weight: bolder;
+}

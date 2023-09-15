@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Practise #3</title>
+    <link rel="stylesheet" href="my.css">
+</head>
+<body>
+    
+    <div onmouseenter="ShowBag();" onmouseleave="HideBag();" id="bag">
+        <div class="stats">
+            <p>Total Pay: <span>0</span></p>
+            <p>Count: <span>0</span></p>
+        </div>
+        <hr />
+    </div>
+    <div class="products">
+        <div class="product">
+            <div>
+                <img src="images/first.webp" alt="">
+            </div>
+            <hr/>
+            <p>Shampoo</p>
+            <p style="color: red">$100</p>
+            <button onclick="AddtoBag(this);" type="button">Add to bag</button>
+        </div>
+        <div class="product">
+            <div>
+                <img src="images/second.webp" alt="">
+            </div>
+            <hr/>
+            <p>Palsame</p>
+            <p style="color: red">$200</p>
+            <button onclick="AddtoBag(this);" type="button">Add to bag</button>
+        </div>
+        <div class="product">
+            <div>
+                <img src="images/first.webp" alt="">
+            </div>
+            <hr/>
+            <p>Tiger</p>
+            <p style="color: red">$5</p>
+            <button onclick="AddtoBag(this);" type="button">Add to bag</button>
+        </div>
+        <div class="product">
+            <div>
+                <img src="images/second.webp" alt="">
+            </div>
+            <hr/>
+            <p>Small Dragon</p>
+            <p style="color: red">$1000</p>
+            <button onclick="AddtoBag(this);" type="button">Add to bag</button>
+        </div>
+        <div class="product">
+            <div>
+                <img src="images/first.webp" alt="">
+            </div>
+            <hr/>
+            <p>Magnos</p>
+            <p style="color: red">$2000</p>
+            <button onclick="AddtoBag(this);" type="button">Add to bag</button>
+        </div>
+        <div class="product">
+            <div>
+                <img src="images/second.webp" alt="">
+            </div>
+            <hr/>
+            <p>Maganes</p>
+            <p style="color: red">$800</p>
+            <button onclick="AddtoBag(this);" type="button">Add to bag</button>
+        </div>
+    </div>
+
+    <script src="my.js"></script>
+</body>
+</html>
